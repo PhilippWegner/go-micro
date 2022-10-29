@@ -20,7 +20,7 @@ var counts int64
 
 type Config struct {
 	DB     *sql.DB
-	Models *data.Models
+	Models data.Models
 }
 
 func main() {
